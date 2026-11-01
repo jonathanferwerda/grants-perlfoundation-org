@@ -1,4 +1,4 @@
-# Grant Proposal: Documenting and stabilising JawnOS, a 114,000-line Perl application
+# Grant Proposal: Documenting and stabilising JawnOS, a 138,000-line Perl application
 
 ## Grantee: Jonathan Ferwerda
 
@@ -15,8 +15,8 @@ Bluetooth, including a custom wake word.
 
 It has been in continuous development for four years. Three years and eleven months of it were written
 by hand; agentic tooling entered the workflow only in the final month, and the architecture predates
-it. Counted on 29 October 2026, it is more than 114,000 lines of Perl across 58 files, plus 22,000
-lines of Mojolicious templates. It is BSD-2 and pre-alpha.
+it. Counted on 1 November 2026, it is more than 138,000 lines of Perl, plus 23,000 lines of
+Mojolicious templates. It is BSD-2 and pre-alpha.
 
 Most Perl in production is glue. Large Perl applications exist, but almost nobody writes down how they
 are built, so the patterns are relearned privately by every generation. JawnOS is a counter-example,
@@ -76,7 +76,7 @@ worked until after midnight, came home, read and wrote code, slept, and did it a
 
 Perl is still my preferred language because it lets me design what I am thinking instead of
 negotiating with the language first. On Halloween 2022 I started writing code again, and I have been
-building JawnOS ever since: more than 114,000 lines of Perl and Mojolicious, Sereal over Unix sockets
+building JawnOS ever since: more than 138,000 lines of Perl and Mojolicious, Sereal over Unix sockets
 between workers, Minion for background jobs, SQLite encrypted at rest, and firmware for three
 low-cost boards. I wrote it by hand for three years and eleven months; agentic tooling arrived last
 month, largely because I had always assumed someone else would eventually finish it.
